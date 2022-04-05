@@ -18,7 +18,7 @@ body{
 }
 
 .herosection_1{
-    width: 99vw;
+    width: 100vw;
     height:100vh;
     background: url(homepage1.jpg);
     background-position: center;
@@ -32,6 +32,9 @@ body{
     padding: 0;
     margin: 0;
 }
+
+
+
 
 
 header{
@@ -97,6 +100,8 @@ header{
     background-image: url(homepage-footer.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:top center;
+    background-attachment:scroll;
     overflow: hidden;
    
     
@@ -116,6 +121,10 @@ footer p:hover{
 footer li:hover{
     color: black;
 
+}
+footer a{
+    text-decoration: none;
+    color: #858686;
 }
 .pop_up a{
     background-color: #858686;
